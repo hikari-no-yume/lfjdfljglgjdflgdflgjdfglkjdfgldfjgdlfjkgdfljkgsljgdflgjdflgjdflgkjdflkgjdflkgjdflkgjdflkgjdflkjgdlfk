@@ -4,3 +4,4 @@ contact_links:
     url: https://appdb.touchhle.org/
   - name: File an issue about a broken app
     about: Please do not do this.
+    url: http://example.com/
