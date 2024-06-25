@@ -13,31 +13,37 @@ body:
     attributes:
       label: App DB report link
       description: Link to the pre-existing database report for the app.
+      placeholder: https://appdb.touchhle.org/apps/1
     validations:
       required: true
   - type: input
     attributes:
       label: App name
+      placeholder: Super Monkey Ball
     validations:
       required: true
   - type: input
     attributes:
       label: App version
+      placeholder: '1.0'
     validations:
       required: true
   - type: input
     attributes:
       label: touchHLE version
+      placeholder: 'v0.2.2'
     validations:
       required: true
   - type: input
     attributes:
       label: Operating system
+      placeholder: Windows 11
     validations:
       required: true
   - type: input
     attributes:
       label: GPU
+      placeholder: NVIDIA GTX 4090
     validations:
       required: true
   - type: textarea
@@ -48,5 +54,16 @@ body:
   - type: textarea
     attributes:
       label: If touchHLE crashed, please paste the log output.
-      description: "On Android, this is the log.txt file. On Windows or macOS, it's visible in the Terminal/Command Prompt/PowerShell."
+      description: |
+        On Android, this is the log.txt file. On Windows or macOS, it's visible
+        in the Terminal/Command Prompt/PowerShell.
       render: 'text'
+  - type: checkboxes
+    attributes:
+      options:
+        - label: I have tested that this version of this app is at least partially working in a previous version of touchHLE.
+          required: true
+        - label: I understand that linking to, discussing or asking for pirated content is not permitted, and will lead to an immediate ban.
+          required: true
+        - label: I understand that “abandonware” is also pirated content.
+          required: true
