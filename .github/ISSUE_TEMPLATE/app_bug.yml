@@ -1,11 +1,14 @@
-name: Report a bug or regression in a known-working app
+name: Report a bug or regression for a known-working app
+description: If an app is already known to work in touchHLE, and no longer works, or has some other problem, choose this option.
 labels: ["bug (supported app)"]
 body:
   - type: markdown
     attributes:
       value: |
         This form is for reporting an issue with an app that is already known
-        to be working in touchHLE.
+        to be working in touchHLE. Please check the [app compatibility database](https://appdb.touchhle.org/)
+        to see which apps work. Apps with less than three stars are not
+        considered “working”.
   - type: input
     attributes:
       label: App DB report link
