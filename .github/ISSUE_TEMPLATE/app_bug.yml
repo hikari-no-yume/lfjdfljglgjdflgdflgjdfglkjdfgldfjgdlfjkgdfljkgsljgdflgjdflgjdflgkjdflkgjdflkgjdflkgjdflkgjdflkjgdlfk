@@ -13,37 +13,31 @@ body:
     attributes:
       label: App DB report link
       description: Link to the pre-existing database report for the app.
-      placeholder: https://appdb.touchhle.org/apps/1
     validations:
       required: true
   - type: input
     attributes:
       label: App name
-      placeholder: Super Monkey Ball
     validations:
       required: true
   - type: input
     attributes:
       label: App version
-      placeholder: 1.0
     validations:
       required: true
   - type: input
     attributes:
       label: touchHLE version
-      placeholder: v0.2.2
     validations:
       required: true
   - type: input
     attributes:
       label: Operating system
-      placeholder: Windows 11
     validations:
       required: true
   - type: input
     attributes:
       label: GPU
-      placeholder: NVIDIA GTX 4090
     validations:
       required: true
   - type: textarea
