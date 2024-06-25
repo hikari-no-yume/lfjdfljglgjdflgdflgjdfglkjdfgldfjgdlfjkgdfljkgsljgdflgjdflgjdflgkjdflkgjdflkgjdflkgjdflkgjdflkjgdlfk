@@ -60,6 +60,7 @@ body:
       render: 'text'
   - type: checkboxes
     attributes:
+      label: By submitting this form, I agree that…
       options:
         - label: I have tested that this version of this app is at least partially working in a previous version of touchHLE.
           required: true
