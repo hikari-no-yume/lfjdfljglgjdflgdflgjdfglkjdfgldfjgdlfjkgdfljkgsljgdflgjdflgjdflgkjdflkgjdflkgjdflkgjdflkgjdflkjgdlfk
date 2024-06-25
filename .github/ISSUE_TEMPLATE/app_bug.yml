@@ -60,10 +60,10 @@ body:
       render: 'text'
   - type: checkboxes
     attributes:
+      label: By submitting this issue, I agree that…
       options:
         - label: I have tested that this version of this app is at least partially working in a previous version of touchHLE.
           required: true
         - label: I understand that linking to, discussing or asking for pirated content is not permitted, and will lead to an immediate ban.
-          required: true
-        - label: I understand that “abandonware” is also pirated content.
+          description: “Abandonware” and illegal copies of free games are also pirated content.
           required: true
