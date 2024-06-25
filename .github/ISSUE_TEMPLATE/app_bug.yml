@@ -54,7 +54,5 @@ body:
   - type: textarea
     attributes:
       label: If touchHLE crashed, please paste the log output.
-      description: |
-        On Android, this is the log.txt file. On Windows or macOS, it's visible
-        in the Terminal/Command Prompt/PowerShell.
+      description: "On Android, this is the log.txt file. On Windows or macOS, it's visible in the Terminal/Command Prompt/PowerShell."
       render: 'text'
