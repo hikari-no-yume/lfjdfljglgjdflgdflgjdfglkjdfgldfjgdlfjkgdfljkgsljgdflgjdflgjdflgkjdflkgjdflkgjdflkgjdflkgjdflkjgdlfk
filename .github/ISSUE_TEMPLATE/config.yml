@@ -2,7 +2,7 @@ blank_issues_enabled: false
 contact_links:
   - name: File an app compatibility report
     about: The touchHLE app compatibility database tracks which apps do and don't work in touchHLE.
-    about: https://appdb.touchhle.org/
+    url: https://appdb.touchhle.org/
   - name: Request support for a specific app
     about: 'We do not take requests. Please **do not** file an issue!'
     url: https://github.com/touchHLE/touchHLE/issues/new/choose
