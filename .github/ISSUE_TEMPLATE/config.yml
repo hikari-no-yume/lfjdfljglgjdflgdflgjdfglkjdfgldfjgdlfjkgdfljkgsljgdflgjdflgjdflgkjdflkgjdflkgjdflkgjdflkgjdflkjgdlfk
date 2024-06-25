@@ -1,0 +1,6 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Report a broken or working app
+    url: https://appdb.touchhle.org/
+  - name: File an issue about a broken app
+    about: Please do not do this.
